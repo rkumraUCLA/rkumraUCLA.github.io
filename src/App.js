@@ -4,6 +4,7 @@ import AboutMe from './components/AboutMe';
 import Experience from './components/Experience';
 import SideNav from './components/SideNav';
 import TopBar from './components/TopBar';
+import FeaturedProjects from './components/FeaturedProjects'; // Import the new component
 // In App.js or the relevant component
 
 function App() {
@@ -57,6 +58,7 @@ function App() {
         </section>
         <AboutMe />
         <Experience />
+        <FeaturedProjects />
       </main>
     </div>
   );

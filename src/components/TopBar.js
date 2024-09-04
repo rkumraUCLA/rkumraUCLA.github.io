@@ -10,6 +10,9 @@ function TopBar() {
         <button className="scroll-button" onClick={() => scrollToSection('experience')}>
           Experience
         </button>
+        <button className="scroll-button" onClick={() => scrollToSection('featured-projects')}>
+          My Projects
+        </button>
       </div>
     </div>
   );

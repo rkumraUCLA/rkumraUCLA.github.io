@@ -27,7 +27,7 @@ function AboutMe() {
           </ul>
         </div>
         <div className="about-image section-animation">
-          <img src={`${process.env.PUBLIC_URL}/images/pfp.jpg`} alt="Rishi Kumra" className="profile-picture" />
+          <img src={`/assets/pfp.jpg`} alt="Rishi Kumra" className="profile-picture" />
         </div>
       </div>
     </section>
