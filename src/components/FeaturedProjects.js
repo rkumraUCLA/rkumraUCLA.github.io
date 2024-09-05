@@ -6,13 +6,24 @@ const projects = [
   {
     title: 'Promptify',
     description: 'An AI-driven music recommendation app',
-    details: 'Detailed information about Promptify. This section can be quite lengthy and scrollable.',
+    details: [
+      {
+        type: 'text',
+        src: "Promptify is an AI Powered music recommendation web application. The app takes text or image input and uses OpenAI's GPT models to create a cutsomized music experience using Spotify's API and it's vast music library.",
+      },
+      { type: 'image', src: '/assets/promptify_preview.png' },
+      {
+        type: 'text',
+        src: "Text Input: Simply upload an image or write a sentence about your vibe, what you're doing, or anything you want. Choose how many song recommendations you want and let OpenAI's and Spotify's API's do the work!",
+      },
+      { type: 'video', src: '/assets/promptify_demo_text.mov' },
+      {
+        type: 'text',
+        src: "Image Input: You can also drag or upload an image of what you're doing, a view, an activity or anything and get recommendations based on the vibe of the picture.",
+      },
+      { type: 'video', src: '/assets/promptify_demo_image.mov' },
+    ],    
     image: '/assets/promptify_preview.png',
-    media: [
-      { type: 'image', src: '/images/promptify_screenshot1.png' },
-      { type: 'image', src: '/images/promptify_screenshot2.png' },
-      { type: 'video', src: '//promptify_demo.mp4' },
-    ],
   },
   {
     title: 'Slide',
@@ -26,29 +37,29 @@ const projects = [
       { type: 'image', src: '/assets/slide_preview.png' },
       {
         type: 'text',
-        src: 'User Profiles: View detailed profiles including sports interests and other personal details. Implemented using React Native and MongoDB.',
+        src: 'User Profiles: You create a user profile, later editable, which includes sports interests and other personal details. Implemented using React and MongoDB to store profile and wrapped the app in React Auth Context to store profile session.',
       },
-      { type: 'video', src: '/assets/slide_vid_profile.mov' },
+      { type: 'video', src: '/assets/slide_demo_profile.mov' },
       {
         type: 'text',
-        src: 'Event Creation: Users can create events by specifying type, date, time, and participants needed. Built using Node.js, Express, and React Native.',
+        src: 'Event Creation: Users can create events by specifying type, date, time, and participants needed. Implemented using Node.js, Express API calls and MongoDB.',
       },
-      { type: 'video', src: '/assets/slide_vid_create_event.mov' },
+      { type: 'video', src: '/assets/slide_demo_create_event.mov' },
       {
         type: 'text',
-        src: 'Finding Events: Users can discover events based on their interests and slide into them. Implemented using a custom event-matching algorithm in Node.js and MongoDB.',
+        src: 'Finding Events: Users can discover events based on their interests and slide into them. Implemented using a custom event-matching algorithm in Node.js and MongoDB with Express API.',
       },
-      { type: 'video', src: '/assets/slide_vid_events.mov' },
+      { type: 'video', src: '/assets/slide_demo_events.mov' },
       {
         type: 'text',
-        src: 'User Matching: Algorithmically match users to events based on shared interests. Developed with JavaScript and MongoDB for real-time matching.',
+        src: 'User Matching: Algorithmically match users to find those with shared interests. Developed with JavaScript and MongoDB for real-time matching.',
       },
-      { type: 'video', src: '/assets/slide_vid_match.mov' },
+      { type: 'video', src: '/assets/slide_demo_match.mov' },
       {
         type: 'text',
         src: 'Leaderboards: Track the most active users in event creation and participation. Built using MongoDB aggregation and React Native for UI.',
       },
-      { type: 'image', src: '/assets/slide_leaderboard.png' },
+      { type: 'image', src: '/assets/slide_demo_leaderboard.png' },
     ],
   },
 ];
