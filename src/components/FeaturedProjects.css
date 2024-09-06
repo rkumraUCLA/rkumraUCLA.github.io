@@ -8,9 +8,11 @@
     width: 100vw;
     height: 100vh;
     color: #ccd6f6;
+    /* padding-top: 10%; */
 }
 
 .section-title {
+    margin-top: 15vh;
     font-size: 2.5em;
     color: #52e0c8;
     margin-bottom: 1vh;
@@ -23,7 +25,7 @@
     justify-content: center;
     position: relative;
     overflow: hidden;
-    margin: 20px 0;
+    padding-top: 20vh
 }
 
 .nav-button {
@@ -37,7 +39,7 @@
 }
 
 .nav-button:hover {
-    transform: scale(1.1);
+    transform: scale(1.5);
 }
 
 .project-info {
@@ -47,13 +49,9 @@
     text-align: center;
     padding: 20px;
     border-radius: 8px;
-    width: 60%;
+    width: 70vw;
     height: 80vh;
     transition: transform 0.3s;
-}
-
-.project-info:hover {
-    transform: scale(1.05);
 }
 
 .project-info h3 {
@@ -69,10 +67,10 @@
     line-height: 1.5;
 }
 
-.project-info img {
-    width: auto;
-    max-height: 80%; 
-    max-width: 90%;
+.project-image {
+    height: auto; 
+    max-height: 50vh;
+    max-width: 60vw;
     object-fit: cover; 
     border-radius: 8px;
     margin: 10px 0;
@@ -80,7 +78,7 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
   
-.project-info:hover .project-info img {
+.project-image:hover {
     transform: scale(1.05);
 }
   

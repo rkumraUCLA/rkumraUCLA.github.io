@@ -1,0 +1,60 @@
+/* src/components/AboutMe.css */
+
+.sec2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.about-me-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70vw;
+    color: #ccd6f6;
+}
+
+.about-text {
+    width: 60%;
+}
+
+.about-text h1 {
+    font-size: 2.5em;
+    font-family: 'Courier New', Courier, monospace;
+    color: #52e0c8;
+    margin-bottom: 20px;
+}
+
+.about-text p {
+    font-size: 1em;
+    color: #8892b0;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.technologies {
+    list-style-type: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(140px, 200px));
+    gap: 10px;
+}
+
+.technologies li {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.about-image {
+    width: 35%;
+    display: flex;
+    justify-content: center;
+}
+
+.profile-picture {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}

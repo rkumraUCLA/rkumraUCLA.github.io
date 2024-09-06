@@ -93,9 +93,9 @@ function FeaturedProjects() {
   const currentProject = projects[currentProjectIndex];
 
   return (
-    <section id="featured-projects" className="featured-projects">
-      <h2 className="section-title">Featured Projects</h2>
-      <div className="project-display">
+    <section id="featured-projects" className="featured-projects ">
+      <h2 className="section-title section-animation">Featured Projects</h2>
+      <div className="project-display section-animation">
         <button className="nav-button" onClick={handlePrev}>
           &lt;
         </button>
