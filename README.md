@@ -8,7 +8,7 @@ Check out the live version of my portfolio [here](https://rkumraUCLA.github.io).
 
 ### Preview
 
-![App Screenshot](./assets/preview.png)
+![App Screenshot](./public/assets/preview.png)
 
 ## Features
 
