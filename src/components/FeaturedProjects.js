@@ -11,6 +11,10 @@ const projects = [
         type: 'text',
         src: "Promptify is an AI Powered music recommendation web application. The app takes text or image input and uses OpenAI's GPT models to create a cutsomized music experience using Spotify's API and it's vast music library.",
       },
+      {
+        type: 'link',
+        src: "https://github.com/rkumraUCLA/promptify"
+      },
       { type: 'image', src: '/assets/promptify_preview.png' },
       {
         type: 'text',
@@ -33,6 +37,10 @@ const projects = [
       {
         type: 'text',
         src: 'Slide is a web app designed to connect users through events based on shared interests, particularly group sports. It allows users to create and join events, find matches based on interests, and connect with like-minded individuals.',
+      },
+      {
+        type: 'link',
+        src: "https://github.com/rkumraUCLA/slide"
       },
       { type: 'image', src: '/assets/slide_preview.png' },
       {
@@ -145,6 +153,16 @@ function FeaturedProjects() {
                       controls
                       className="media-video"
                     />
+                  )}
+                  {item.type === 'link' && (
+                    <a
+                      href={item.src}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="media-link"
+                    >
+                      Click for Git Repository
+                    </a>
                   )}
                 </div>
               ))}

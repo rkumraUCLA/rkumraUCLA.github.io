@@ -31,7 +31,7 @@ function Experience() {
               className={`tablinks ${activeTab === 'CodeNinjas' ? 'active' : ''}`}
               onClick={() => openTab('CodeNinjas')}
             >
-              Codeninjas and Kumon
+              Codeninjas
             </button>
           </div>
 
@@ -39,7 +39,7 @@ function Experience() {
             {activeTab === 'Reliance' && (
               <div id="Reliance" className="tabcontent active-tab">
                 <h2>Data Engineer @ Reliance</h2>
-                <p>May 2018 - Present</p>
+                <p>June 2024 - September 2024 | Torrance, CA</p>
                 <ul>
                   <li>Developed diagnostic reporting for a data pipeline integrating 60+ ERPs into Snowflake using AWS services (Lambda, RDS, S3, EventBridge).</li>
                   <li>Automated job performance tracking, generating insights on discrepancies, success rates, and failures using Python (Boto3, Psycopg2) and SQL queries on AWS RDS.</li>

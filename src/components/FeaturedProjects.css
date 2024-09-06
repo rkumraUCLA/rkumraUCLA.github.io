@@ -188,6 +188,23 @@
     animation: slideInPrev 0.5s forwards;
 }
 
+.media-link {
+    display: inline-block;
+    margin-top: 1vh;
+    font-size: 1rem;
+    color: #52e0c8; 
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.media-link:hover {
+    color: #88f3d3; 
+    transform: scale(1.05); 
+    text-decoration: underline; 
+}
+
+
 @keyframes slideInNext {
     from {
         opacity: 0;
