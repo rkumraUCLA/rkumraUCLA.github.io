@@ -1,70 +1,50 @@
-# Getting Started with Create React App
+# Rishi Kumra - Personal Portfolio Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is my personal portfolio website, built using React, showcasing my projects, skills, and professional experience. The goal of this website is to provide an interactive and visually appealing way to learn more about my work as a software engineer, data engineer, and my passion for AI and machine learning.
 
-## Available Scripts
+### Live Demo
 
-In the project directory, you can run:
+Check out the live version of my portfolio [here](https://rkumraUCLA.github.io).
 
-### `npm start`
+### Preview
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![App Screenshot](./assets/preview.png)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Features
 
-### `npm test`
+- **About Me:** Learn more about my background, skills, and what I am passionate about.
+- **Experience:** Details of my professional journey including roles at Reliance Steel & Aluminum Co. and Simplehuman.
+- **Projects:** Showcase of projects like Promptify, Slide, and other works with detailed descriptions, images, and videos.
+- **Contact:** Links to my GitHub, LinkedIn, and email for easy communication.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Tech Stack
 
-### `npm run build`
+- **Frontend:** 
+  - [![React][React.js]][React-url] - For building the user interface.
+  - [![JavaScript][JavaScript]][JavaScript-url] - Core programming language used.
+  - [![CSS][CSS]][CSS-url] - Custom styling for a unique look and feel.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Libraries:** 
+  - [![Framer Motion][FramerMotion]][FramerMotion-url] - For animations and transitions.
+  - [![React Icons][ReactIcons]][ReactIcons-url] - For adding visual icons throughout the site.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
+[React-url]: https://reactjs.org/
+[JavaScript]: https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black
+[JavaScript-url]: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+[CSS]: https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white
+[CSS-url]: https://developer.mozilla.org/en-US/docs/Web/CSS
+[FramerMotion]: https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white
+[FramerMotion-url]: https://www.framer.com/motion/
+[ReactIcons]: https://img.shields.io/badge/React_Icons-61DAFB?style=for-the-badge&logo=react&logoColor=black
+[ReactIcons-url]: https://react-icons.github.io/react-icons/
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## License
+Distributed under the MIT License. See `LICENSE.txt` for more information.
 
-### `npm run eject`
+## Contact Me
+Rishi Kumra: rkumra@ucla.edu
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Acknowledgements
+* [README Template](https://github.com/othneildr
+  
